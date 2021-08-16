@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    height: 100vh;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.grid {
+    width: 25%;
+    height: 25%;
+    margin: 0;
+}
+
+.grid:hover {
+    background-color: red;
+}
